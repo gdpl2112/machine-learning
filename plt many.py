@@ -6,6 +6,7 @@ from pylab import mpl
 mpl.rcParams["font.sans-serif"] = ["SimHei"]
 mpl.rcParams["axes.unicode_minus"] = False
 
+# 多图
 x = range(40)
 
 x_ticks_label = ["11点{}分".format(i) for i in x]

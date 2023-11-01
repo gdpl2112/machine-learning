@@ -1,9 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from pylab import mpl
 
-mpl.rcParams["font.sans-serif"] = ["SimHei"]
-mpl.rcParams["axes.unicode_minus"] = False
+# 抛物线图
 
 x = np.linspace(-10, 10, 100)
 y = np.sin(x)

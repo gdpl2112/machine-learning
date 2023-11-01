@@ -6,6 +6,7 @@ from pylab import mpl
 mpl.rcParams["font.sans-serif"] = ["SimHei"]
 mpl.rcParams["axes.unicode_minus"] = False
 
+# 单个图
 plt.figure()
 
 # plt.plot([1, 2, 3, 4, 5, 6, 7], [29, 28, 39, 30, 19, 17, 19])
